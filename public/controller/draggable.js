@@ -15,11 +15,5 @@ app.controller('test', function($scope){
 		    });
 	    });
 	});    
-    /*$( "#draggable" ).draggable({
-      connectToSortable: "#sortable",
-      helper: "clone",
-      revert: "invalid"
-    });
-    $( "ul, li" ).disableSelection();*/
   	
 });

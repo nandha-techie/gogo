@@ -6,7 +6,7 @@ app.use(express.static('./public'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
 
-//require('./controller/routes')(app);
+require('./routes/general')(app);
 
 app.listen(port,function() {
 	console.log('server running on port:',port);

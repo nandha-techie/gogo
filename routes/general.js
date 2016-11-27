@@ -16,7 +16,7 @@ module.exports=function(app) {
 			if(err) return res.json(err);
 			else return res.json({message: "success"});
 		});	
-	});
+	}); 
 	app.post('/export', function(req, res){
 		var xmlData = [],zip = path.join(__dirname, '../public/zip/'), myTask = new Zip(),
 		exportfolder = path.join(__dirname, '../public/export/');
